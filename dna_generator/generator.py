@@ -114,13 +114,8 @@ class DNAGenerator:
             max_dinucleotide_repeats=self.config.max_dinucleotide_repeats
         )
 
-        # Create thermodynamic parameters
-        thermoparams = ThermodynamicParams(
-            mv_conc=50.0,
-            dv_conc=4.0,
-            dntp_conc=0.5,
-            dna_conc=50.0
-        )
+        # Create thermodynamic parameters - load from default config
+        thermoparams = ThermodynamicParams.load_default()
 
         self.validator = DNAValidator(rules, thermoparams)
         self.analyzer = SequenceAnalyzer()
