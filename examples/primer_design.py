@@ -15,9 +15,10 @@ def main():
     print("=" * 70)
 
     # Design forward and reverse primers
+    # Using realistic validated primer sequences
     primers = [
-        ("Forward", "ATGCGAT", 25),  # Start codon region
-        ("Reverse", "CGATCGT", 25),
+        ("Forward", "CATCTATCCCTTCGAACGAC", 25),  # Real primer from validated set
+        ("Reverse", "CGGTAGTAGTGCTAATTCGG", 25),  # Real primer from validated set
     ]
 
     # Use sequence_only profile for reliable generation

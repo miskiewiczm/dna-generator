@@ -25,7 +25,7 @@ class TestGeneratorDeterminism(unittest.TestCase):
         )
 
         gen = DNAGenerator(cfg)
-        initial = 'ATGCTAGCTAGC'  # Longer initial sequence
+        initial = 'GTTCTAGACCTCGACCCTTA'  # Real validated primer
         target = 50  # Shorter target
         res1 = gen.generate(initial, target)
         res2 = gen.generate(initial, target)

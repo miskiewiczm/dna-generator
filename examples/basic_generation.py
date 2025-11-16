@@ -15,7 +15,7 @@ def main():
     print("=" * 70)
 
     # Initial sequence (e.g., start of a primer or known sequence)
-    initial_sequence = "ATGCGATCGTAGCTAGC"
+    initial_sequence = "GAGACGAGCATGAGACATAC"  # Real validated primer
     target_length = 200  # Generate a 200bp sequence
 
     print(f"\nInitial sequence: {initial_sequence}")
