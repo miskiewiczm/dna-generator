@@ -44,7 +44,7 @@ def main():
     print("=" * 70)
 
     # Library parameters
-    initial_sequence = "ATGCGATCGTAGC"
+    initial_sequence = "CCTGTCATCACGCTAGTAAC"
     target_length = 150
     library_size = 10
 

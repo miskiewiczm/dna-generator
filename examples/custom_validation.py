@@ -30,7 +30,7 @@ def main():
     print("=" * 70)
 
     # Test parameters
-    initial_sequence = "ATGCGATCGT"
+    initial_sequence = "CCTGTCATCACGCTAGTAAC"
     target_length = 200
     seed = 999
 
